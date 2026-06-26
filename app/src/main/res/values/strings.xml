@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Budget Hero</string>
+
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_link">Privacy Policy</string>
+    <string name="designed_and_operated_by">Designed &amp; Operated by</string>
+    <string name="operational_development_group">Operational Development Group</string>
+    <string name="location_stamp">Las Vegas, NV United States 🇺🇸</string>
+    <string name="privacy_policy_web_url">https://github.com/operationaldevelopmentgroup-cpu/Budget-Hero-/blob/main/PRIVACY_POLICY.md</string>
+    <string name="privacy_policy_view_online">View Online</string>
+    <string name="privacy_policy_content" translatable="false">
+        <b>Privacy Policy: Budget Hero</b>\n\n
+        <b>Last Updated: June 2026</b>\n\n
+        Operational Development Group ("we," "us," or "our") built the Budget Hero app as a tool to manage personal finances. This service is provided at no cost and is intended for use as is.\n\n
+        <b>1. Data Collection and Usage</b>\n
+        Our app is designed as a <b>local-only</b> application. <b>Operational Development Group does not collect or store any user info or data.</b>\n\n
+        - <b>No Off-Device Transmission:</b> We do not collect, store, or transmit any personal or sensitive user data to any external servers or third parties.\n
+        - <b>Local Processing:</b> Any data you enter into the app (such as income, spending, bills, or notes) is stored exclusively on your device\'s local storage. This "on-device access" does not constitute data collection because the information never leaves your device.\n\n
+        <b>2. Android Permissions</b>\n
+        The app may request certain system permissions to function correctly (e.g., Storage or Media). These are used solely to provide features within the app on your device, such as saving exports or attaching receipts. No data accessed through these permissions is shared with us or any third party.\n\n
+        <b>3. Children’s Privacy (E for Everyone)</b>\n
+        This app is rated <b>E for Everyone</b>. Because the app does not collect, transmit, or share any personal information from any user (including children under the age of 13), it is fully compliant with the Children\'s Online Privacy Protection Act (COPPA) and international digital safety standards. We have no way to identify or contact users, regardless of age.\n\n
+        <b>4. Third-Party Services</b>\n
+        The app does not use third-party SDKs (such as advertising networks or analytics providers) that transmit data off your device.\n\n
+        <b>5. Security</b>\n
+        Since your data is stored locally, its security depends on your device\'s security settings. We recommend using built-in Android security features (like screen locks) to protect the information on your device.\n\n
+        <b>6. GitHub Repository</b>\n
+        This privacy policy and the source code for this application are maintained and available for review in our GitHub repository.\n\n
+        <b>7. Changes to This Privacy Policy</b>\n
+        We may update our Privacy Policy from time to time. You are advised to review this in-line policy periodically for any changes. Any changes are effective immediately after they are updated within the application.\n\n
+        <b>8. Contact Us</b>\n
+        If you have any questions or suggestions about our Privacy Policy, please contact Operational Development Group.
+    </string>
+</resources>

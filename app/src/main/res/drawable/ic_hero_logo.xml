@@ -1,0 +1,82 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Circle Background from the asset -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+
+    <!-- Cape -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M35,45 Q25,40 20,55 Q15,75 35,65 Q45,60 50,45 Z" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M35,45 Q25,40 20,55 Q15,75 35,65 Q45,60 50,45 Z" />
+
+    <!-- Money Body (Dollar Bill) -->
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M45,35 L75,25 L85,55 L55,65 Z" />
+    <path
+        android:strokeColor="#1B5E20"
+        android:strokeWidth="1.5"
+        android:pathData="M45,35 L75,25 L85,55 L55,65 Z" />
+
+    <!-- Dollar Sign -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M65,40 Q68,38 70,40 Q72,42 70,45 Q65,50 68,52 Q70,54 72,52" />
+    <path
+        android:strokeColor="#1B5E20"
+        android:strokeWidth="1"
+        android:pathData="M68,38 L68,54" />
+
+    <!-- Mask -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M55,30 Q65,25 75,28 L72,38 Q62,35 52,38 Z" />
+
+    <!-- Eyes (on mask) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,32 a2,2 0,1 0,4 0 a2,2 0,1 0,-4 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,31 a2,2 0,1 0,4 0 a2,2 0,1 0,-4 0" />
+
+    <!-- Arms and Legs -->
+    <!-- Right Arm (Raised) -->
+    <path
+        android:strokeColor="#1B5E20"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M75,35 L85,20" />
+    <!-- Left Arm -->
+    <path
+        android:strokeColor="#1B5E20"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M50,55 L45,60" />
+    <!-- Right Leg -->
+    <path
+        android:strokeColor="#1B5E20"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M65,62 L70,75" />
+    <!-- Left Leg -->
+    <path
+        android:strokeColor="#1B5E20"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M55,65 L50,78" />
+
+    <!-- Text "BUDGET HERO" (Simplified representation) -->
+    <!-- This is hard to do with paths manually, so I'll omit or simplify -->
+
+</vector>

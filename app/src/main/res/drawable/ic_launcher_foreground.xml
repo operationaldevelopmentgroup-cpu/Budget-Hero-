@@ -1,0 +1,74 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Grouping to apply a global 'Zoom Out' effect (Scale 0.75) -->
+    <!-- Reduced from 0.8 to 0.75 to prevent top/bottom clipping -->
+    <!-- Pivot at center (54, 54) -->
+    <group
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:pivotX="54"
+        android:pivotY="54">
+
+        <!-- Shield Outer Depth (Shadow) -->
+        <path
+            android:fillColor="#000000"
+            android:alpha="0.5"
+            android:pathData="M54,6 L14,22 V55 C14,84 54,102 54,102 C54,102 94,84 94,55 V22 L54,6 Z" />
+
+        <!-- Sharp Solid Rim -->
+        <path
+            android:fillColor="#D1D1D6"
+            android:pathData="M54,8 L16,23 V55 C16,82 54,100 54,100 C54,100 92,82 92,55 V23 L54,8 Z" />
+
+        <!-- Inner Shield "Armor Plate" (Solid Dark Background) -->
+        <path
+            android:fillColor="#0A0A0B"
+            android:pathData="M54,12 L20,26 V54 C20,77 54,92 54,92 C54,92 88,77 88,54 V26 L54,12 Z" />
+
+        <!-- Coin Motif (Minimal circle representing money) -->
+        <path
+            android:pathData="M54,32 A22,22 0,1,1 53.99,32 Z"
+            android:strokeWidth="1.5"
+            android:strokeAlpha="0.4">
+            <aapt:attr name="android:strokeColor">
+                <gradient
+                    android:centerX="54"
+                    android:centerY="54"
+                    android:gradientRadius="22"
+                    android:type="radial">
+                    <item android:color="#81C784" android:offset="0.5" />
+                    <item android:color="#2E7D32" android:offset="1" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Centered Power Bolt with Electric Money Glow (Blue to Green) -->
+        <path
+            android:pathData="M64,22 L46,50 H56 L42,88 L72,46 H62 L74,22 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:endX="74"
+                    android:endY="88"
+                    android:startX="42"
+                    android:startY="22"
+                    android:type="linear">
+                    <item android:color="#007AFF" android:offset="0" />
+                    <item android:color="#2E7D32" android:offset="1" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Bolt Inner Highlight for Sharpness -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M60,28 L50,44 H58 L48,72 L64,42 H56 L66,28 Z"
+            android:alpha="0.7" />
+
+    </group>
+
+</vector>
